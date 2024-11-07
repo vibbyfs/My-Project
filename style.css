@@ -395,8 +395,6 @@ header {
 .footer {
   background-color: var(--or);
   color: white;
-  border-top-left-radius: 65px;
-  border-top-right-radius: 65px;
 }
 
 .footer span {
