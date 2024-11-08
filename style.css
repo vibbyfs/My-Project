@@ -392,7 +392,7 @@ header {
 
 /* MENU PAGE */
 .menu {
-  height: 100vh;
+  height: 100%;
 }
 
 .menu-container {
