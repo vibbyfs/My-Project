@@ -391,6 +391,10 @@ header {
 }
 
 /* MENU PAGE */
+.menu {
+  height: 100vh;
+}
+
 .menu-container {
   display: flex;
 }
