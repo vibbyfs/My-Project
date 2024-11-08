@@ -393,7 +393,7 @@ header {
 /* MENU PAGE */
 
 .menu-main {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   position: relative;
 }
