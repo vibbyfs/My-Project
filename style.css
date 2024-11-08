@@ -397,14 +397,14 @@ header {
 
 .menu-container-grid {
   position: fixed;
+  height: 100%;
   z-index: 1;
+  border-right: 3px solid #eee;
 }
 
 .menu-side-bar {
   width: 15rem;
-  height: 100vh;
   background-color: white;
-  border-right: 3px solid #eee;
 }
 
 .menu-side-bar h3 {
