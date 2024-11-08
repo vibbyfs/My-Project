@@ -487,6 +487,8 @@ header {
 .footer {
   background-color: var(--or);
   color: white;
+  position: relative;
+  bottom: 0;
   z-index: 1;
 }
 
