@@ -391,9 +391,8 @@ header {
 }
 
 /* MENU PAGE */
-
 .menu-main {
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   position: relative;
 }
@@ -404,14 +403,16 @@ header {
 
 .menu-container-grid {
   position: fixed;
-  height: 100vh;
-  border-right: 3px solid #eee;
   z-index: 2;
+  height: 100vh;
+  background-color: #f29f05;
 }
 
 .menu-side-bar {
   width: 15rem;
+  border-right: 3px solid #eee;
   background-color: white;
+
 }
 
 .menu-side-bar h3 {
@@ -432,13 +433,13 @@ header {
   margin: 5px;
   font-size: 0.8rem;
   background-color: white;
-  border: none;
-  border-radius: 6px;
+  border: 0.1rem solid #c5c3c3;
+  border-radius: 10px;
   cursor: pointer;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-.menu-button .menu-btn-active {
+button.menu-btn-active {
   background-color: var(--or);
   color: white;
 }
