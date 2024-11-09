@@ -424,7 +424,7 @@ header {
 .menu-main .menu-container .menu-side-bar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   height: 5rem;
   border-bottom: 2px solid #eee;
@@ -433,10 +433,6 @@ header {
 
 .menu-main .menu-container .menu-side-bar .menu-side-bar-h1 {
   color: var(--bl);
-}
-
-.menu-main .menu-container .menu-side-bar .menu-button {
-  margin: 0 2rem;
 }
 
 .menu-main .menu-container .menu-side-bar .menu-button button {
@@ -476,8 +472,9 @@ header {
 .menu-main .menu-container .menu-content .menu-filter-card {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 2rem;
+  align-items: center;
+  gap: 5px;
+  padding: 2rem 0;
 }
 
 .menu-main .menu-container .menu-content .menu-filter-card .menu-card {
@@ -564,7 +561,6 @@ header {
 }
 
 /* MENU PAGE JS */
-
 .menu-card.hide {
   display: none;
 }
