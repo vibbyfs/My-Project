@@ -591,6 +591,10 @@ header {
   display: inline;
 }
 
+.footer .footer-container {
+  padding-top: 1rem;
+}
+
 .footer-left .p-footer-left {
   font-size: 0.7rem;
 }
