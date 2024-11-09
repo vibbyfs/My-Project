@@ -418,8 +418,8 @@ header {
 
 /* MENU PAGE */
 .menu-main {
-  height: 100v;
-
+  height: 100vh;
+}
 /* Style Dropdown */
 .dropdown {
   position: relative;
