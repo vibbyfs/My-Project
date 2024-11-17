@@ -1230,7 +1230,7 @@ header {
 /* CONTACT PAGE */
 .contact-section {
   min-height: 35vh;
-  margin-bottom: -5px;
+/*   margin-bottom: -5px; */
   content: "";
   display: block;
 }
