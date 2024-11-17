@@ -1174,8 +1174,8 @@ header {
 
 /* ABOUT PAGE */
 .about {
-  min-height: 100vh;
-  margin-bottom: -5px;
+  min-height: 35vh;
+/*   margin-bottom: -5px; */
   content: "";
   display: block;
 }
