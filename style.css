@@ -1229,7 +1229,7 @@ header {
 
 /* CONTACT PAGE */
 .contact-section {
-  min-height: 85vh;
+  min-height: 70vh;
   margin-bottom: -5px;
   content: "";
   display: block;
