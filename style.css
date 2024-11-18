@@ -807,7 +807,7 @@ header {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 400px;
+  width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -903,6 +903,8 @@ header {
 }
 
 .store-card-viewdetail a {
+  display: inline-block;
+  width: 100%;
   font-size: 0.8rem;
   color: var(--wht);
 }
@@ -956,6 +958,16 @@ header {
 .store-popup-close:hover,
 .store-popup-close:active {
   font-size: 40px;
+}
+
+#store-gri:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+#store-gri:target .store-popup-content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 #store-sby1:target {
@@ -1074,16 +1086,6 @@ header {
 }
 
 #store-grl:target .store-popup-content {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-#store-gri:target {
-  opacity: 1;
-  visibility: visible;
-}
-
-#store-gri:target .store-popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
@@ -1330,8 +1332,8 @@ header {
 
 .footer-center .p-footer-center-adress {
   font-size: 0.7rem;
-  display: inline-block;
-  margin-left: 20px;
+  /* display: inline-block; */
+  margin-left: 18px;
 }
 
 .footer-right .p-footer-right a {
