@@ -39,7 +39,7 @@ ScrollReveal().reveal(".best-seller .best-seller-card", {
 
 ScrollReveal().reveal(".our-journey .our-journey-img", {
   ...scrollRevealOption,
-  interval: 500,
+  delay: 400,
 });
 
 ScrollReveal().reveal(".testimonials-card", {
@@ -50,6 +50,16 @@ ScrollReveal().reveal(".testimonials-card", {
 ScrollReveal().reveal(".our-customer-card", {
   ...scrollRevealOption,
   interval: 200,
+});
+
+ScrollReveal().reveal(".card-available", {
+  ...scrollRevealOption,
+  interval: 200,
+});
+
+ScrollReveal().reveal(".about-img", {
+  ...scrollRevealOption,
+  interval: 400,
 });
 
 // MENU PAGE - FILTER & SORT
