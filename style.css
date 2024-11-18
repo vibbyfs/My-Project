@@ -530,17 +530,17 @@ header {
 
 .clear-button {
   right: 100px;
-  top: 50%;
+  top: 80%;
   transform: translateX(-50%);
   background: none;
   border: none;
   cursor: pointer;
   font-size: 30px;
-  display: none; /
+  display: none;
 }
 
 .clear-button.show {
-  display: block; /
+  display: block;
 }
 
 .menu-container .dropdown {
