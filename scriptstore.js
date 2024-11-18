@@ -121,4 +121,4 @@ sortZToAButton.addEventListener("click", () => toggleSortOrder("Z-A"));
 dropBtn.addEventListener("click", openDropdown);
 
 // Inisialisasi awal
-updateDisplayCards();
+// updateDisplayCards();
