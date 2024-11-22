@@ -301,10 +301,8 @@ header {
 .best-seller-grid .best-seller-card {
   max-width: 300px;
   width: 100%;
-  background-color: white;
   /* padding-bottom: 15px; */
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .best-seller-grid .best-seller-card img {
